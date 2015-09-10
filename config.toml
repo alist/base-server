@@ -1,0 +1,14 @@
+contracts = []
+
+[edb]
+host = "0.0.0.0"
+port = "1337"
+
+[server]
+port = "4545"
+
+[security]
+salt = 'put strong salt here'
+encryptionSecret = 'This is a secret used for encrypting the token contents Its not the same as the one for verifying the token itself'
+tokenSecret = 'This is the secret used for token creation and verification'
+serverKey = '6B72D45EB65F619F11CE580C8CAED9E0BADC774E9C9C334687A65DCBAD2C4151CB3688B7561D488A2A4834E1AEE9398BEF94844D8BDBBCA980C11E3654A45906'
