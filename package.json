@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Dennis Mckinnon",
-  "license": "ISC",
+  "license": "Apache",
   "dependencies": {
     "async": "^1.4.2",
     "eris-contracts": "^0.11.1",
